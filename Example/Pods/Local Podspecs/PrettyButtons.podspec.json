@@ -1,0 +1,27 @@
+{
+  "name": "PrettyButtons",
+  "version": "0.1.0",
+  "summary": "A short description of PrettyButtons.",
+  "description": "An iOS library for UIButtons with user-feedback on-press.",
+  "homepage": "https://github.com/chrisfromtemporaryid@gmail.com/PrettyButtons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chrisfromtemporaryid@gmail.com": "chrisfromtemporaryid@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chrisfromtemporaryid@gmail.com/PrettyButtons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PrettyButtons/Classes/**/*",
+  "dependencies": {
+    "ClingConstraints": [
+      "~> 1.0.1"
+    ]
+  }
+}

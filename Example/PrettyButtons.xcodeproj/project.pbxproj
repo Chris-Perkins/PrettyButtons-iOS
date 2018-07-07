@@ -352,10 +352,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PrettyButtons_Example/Pods-PrettyButtons_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ClingConstraints/ClingConstraints.framework",
 				"${BUILT_PRODUCTS_DIR}/PrettyButtons/PrettyButtons.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClingConstraints.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrettyButtons.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

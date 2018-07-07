@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01523388ADA6550315700C11F78A1243 /* Pods-PrettyButtons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37AD40E967F33F3606B08C5D62B4B15 /* Pods-PrettyButtons_Tests-dummy.m */; };
+		16B16FB422A0BEC78C559F03F21139B2 /* Pods-PrettyButtons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9997FF981DECECDB5C526139C9CD0B93 /* Pods-PrettyButtons_Example-dummy.m */; };
+		20CDD882CC68F098E2AE8F659C6F282E /* Pods-PrettyButtons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6762C977D46A2AE72780DF8697F688CE /* Pods-PrettyButtons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220B0E7F750C80AC7E71EF31C17EC45C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D87A215B3D84CD7145CCD0803D263A /* UIViewExtension.swift */; };
+		22C83F8BB7533A85F5419E7E90433DA0 /* NSLayoutConstraintCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07226D403A561ABA222FB263C21E367 /* NSLayoutConstraintCollectionExtension.swift */; };
+		23B9B934DDD2807FC565854387908A0F /* ClingConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6DB72FBA2FED2919F758CACE2C84BD /* ClingConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4712221279E29262A97283EF8D8C583E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */; };
+		5D3620E86DF06578BEC23DA8A06ABF5F /* FillMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EB00EE270BB8AC9E23AAF8AAB382E /* FillMethod.swift */; };
+		8D59F8BA6182AA7B044BC0A689D17850 /* ClingConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = B77746D13117E4C06155AAD7E4BF0695 /* ClingConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908ECF81AA12DEF2BD0553A715D6AFDF /* PrettyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F50B95BF0DCE010E7855CB97EF81F1 /* PrettyButton.swift */; };
+		933FD191CD100CFBD572FC56E8AA0E3B /* PrettyButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7F41C61601E4131F760F6F398D9DBB /* PrettyButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97E1B5120D59CFEAACE0C83089827B33 /* ClingConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBCB00284B8464332CEFA4867E113CD /* ClingConstraints.framework */; };
+		A0ED62FC2C2EC50DAEBEBBF3959CDC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */; };
+		A3EA04BF93C80C0C2735FE8A27359173 /* ClingConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C35447CD8436AF649A1DE0AC90BA9 /* ClingConstraints-dummy.m */; };
+		CD849C64A754AC705636BA8E47DA5704 /* Pods-PrettyButtons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 931D3D399AB74BA24F473FD0994E2200 /* Pods-PrettyButtons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2265CBA0449C4B9CBFD2026524A4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */; };
+		E0A0B66A978428BB68C709B8BCF08F41 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C88761F80C758DD0D184925DEFC3E5 /* NSLayoutConstraintExtension.swift */; };
+		EE47C36EEE40B25DADF86E323D30245C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */; };
+		F018CD4161D9D79DF9855E611C720F18 /* PrettyButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18D63FDD34ECCC48A816D3627AE7C9 /* PrettyButtons-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD84A7BA86EAFB72E76F81C09F5229B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46E66926860F0475EC4EE7F9CD2008F;
+			remoteInfo = ClingConstraints;
+		};
+		37764A7309616BF727A25A1457EB567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5029BAB66A943A39BE8E3F75300CE29D;
+			remoteInfo = PrettyButtons;
+		};
+		68457E02E839EA814E2744FB97975D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46E66926860F0475EC4EE7F9CD2008F;
+			remoteInfo = ClingConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071AD3EA4945B9E831602AFF72FE572D /* Pods-PrettyButtons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrettyButtons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		075FCE224FC3A0C74E4ECA5011B1D219 /* Pods-PrettyButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrettyButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FB2C550B9931BEA3EA375E22BE34F1C /* ClingConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClingConstraints.xcconfig; sourceTree = "<group>"; };
+		2D0AA483607111D7DFA52B6F15898324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD61C3963841AE4CADA4B16EEF74365 /* PrettyButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrettyButtons.xcconfig; sourceTree = "<group>"; };
+		34D87A215B3D84CD7145CCD0803D263A /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = ClingConstraints/UIViewExtension.swift; sourceTree = "<group>"; };
+		37B53AD3F21216A82D3D133D0FE58816 /* Pods-PrettyButtons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrettyButtons_Example-resources.sh"; sourceTree = "<group>"; };
+		38F50B95BF0DCE010E7855CB97EF81F1 /* PrettyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrettyButton.swift; path = PrettyButtons/Classes/PrettyButton.swift; sourceTree = "<group>"; };
+		3BBCB00284B8464332CEFA4867E113CD /* ClingConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClingConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45210F25CC6650670A78C1F68C7ACC95 /* Pods-PrettyButtons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrettyButtons_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4730B98B112296FF1D4909853729F86A /* Pods-PrettyButtons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrettyButtons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BF42AEC7D9F33E9CA3A13F8A0CADCB8 /* Pods-PrettyButtons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrettyButtons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51C88761F80C758DD0D184925DEFC3E5 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraintExtension.swift; path = ClingConstraints/NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		52292849AAED60135273E88A30A4B72A /* Pods_PrettyButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyButtons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC55A09A9247ACFC94FA42286212EEA /* ClingConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClingConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6762C977D46A2AE72780DF8697F688CE /* Pods-PrettyButtons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrettyButtons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		689C35447CD8436AF649A1DE0AC90BA9 /* ClingConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClingConstraints-dummy.m"; sourceTree = "<group>"; };
+		6E7F41C61601E4131F760F6F398D9DBB /* PrettyButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrettyButtons-umbrella.h"; sourceTree = "<group>"; };
+		7636136923261829CF8DB6D2C2EE4E3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E18D63FDD34ECCC48A816D3627AE7C9 /* PrettyButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrettyButtons-dummy.m"; sourceTree = "<group>"; };
+		7F49F1EB73A9D92732F258031E021F82 /* ClingConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ClingConstraints.modulemap; sourceTree = "<group>"; };
+		8C4D0145AE775C7AA507CB7D7DE92AD8 /* Pods-PrettyButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrettyButtons_Tests.modulemap"; sourceTree = "<group>"; };
+		931D3D399AB74BA24F473FD0994E2200 /* Pods-PrettyButtons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrettyButtons_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9997FF981DECECDB5C526139C9CD0B93 /* Pods-PrettyButtons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrettyButtons_Example-dummy.m"; sourceTree = "<group>"; };
+		A1C81BEA5F6AD95E1338E4D47AE3AB7A /* Pods-PrettyButtons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrettyButtons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A37AD40E967F33F3606B08C5D62B4B15 /* Pods-PrettyButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrettyButtons_Tests-dummy.m"; sourceTree = "<group>"; };
+		A827175BD16B62D61984F1397CDB8539 /* PrettyButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AFE9876852B25C37AF2EF9991F111FEC /* Pods-PrettyButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrettyButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3992DBE842DEC9EE03077BD8C1891CE /* PrettyButtons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrettyButtons-prefix.pch"; sourceTree = "<group>"; };
+		B5756F8F6CC04A351283694314C1C925 /* Pods-PrettyButtons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrettyButtons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B77746D13117E4C06155AAD7E4BF0695 /* ClingConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClingConstraints.h; path = ClingConstraints/ClingConstraints.h; sourceTree = "<group>"; };
+		BC6DB72FBA2FED2919F758CACE2C84BD /* ClingConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClingConstraints-umbrella.h"; sourceTree = "<group>"; };
+		C0FF857747F249878DE5F98E5368F7F1 /* Pods-PrettyButtons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrettyButtons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9456EBBCF445326ABC61E8B0C17F267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE52141B05DFD108D2281594AC52A35 /* Pods_PrettyButtons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyButtons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24B964D27AB02F9B4CA32B8E9FB303C /* PrettyButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PrettyButtons.modulemap; sourceTree = "<group>"; };
+		D99770DA8C62CFB900B43CCDE685A066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28250435562B5C8FFB623133B702BB5 /* Pods-PrettyButtons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrettyButtons_Tests-resources.sh"; sourceTree = "<group>"; };
+		EC2EB00EE270BB8AC9E23AAF8AAB382E /* FillMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillMethod.swift; path = ClingConstraints/FillMethod.swift; sourceTree = "<group>"; };
+		F07226D403A561ABA222FB263C21E367 /* NSLayoutConstraintCollectionExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraintCollectionExtension.swift; path = ClingConstraints/NSLayoutConstraintCollectionExtension.swift; sourceTree = "<group>"; };
+		F698A777AB79B3ADDC13CBCA1F099ACD /* Pods-PrettyButtons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrettyButtons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FB7967966C1AE7BDCC97D31D13EA4913 /* ClingConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClingConstraints-prefix.pch"; sourceTree = "<group>"; };
+		FD014610D744EC63FBE2D671E7A89A03 /* Pods-PrettyButtons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrettyButtons_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BDE6F602D872055B9C1ECBB7D65E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ED62FC2C2EC50DAEBEBBF3959CDC18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB223D1B1025E7F9F06FA1CFE516437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712221279E29262A97283EF8D8C583E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF90FBEC685C1A3A6D8FE9DC0E73102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E1B5120D59CFEAACE0C83089827B33 /* ClingConstraints.framework in Frameworks */,
+				EE47C36EEE40B25DADF86E323D30245C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF33F76BC8FAFD005F21D28CD311F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2265CBA0449C4B9CBFD2026524A4C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F067477B6E66E040A4B5EA87C3F9897 /* ClingConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				B77746D13117E4C06155AAD7E4BF0695 /* ClingConstraints.h */,
+				EC2EB00EE270BB8AC9E23AAF8AAB382E /* FillMethod.swift */,
+				F07226D403A561ABA222FB263C21E367 /* NSLayoutConstraintCollectionExtension.swift */,
+				51C88761F80C758DD0D184925DEFC3E5 /* NSLayoutConstraintExtension.swift */,
+				34D87A215B3D84CD7145CCD0803D263A /* UIViewExtension.swift */,
+				242D002B47299022144407EB3EB23DF9 /* Support Files */,
+			);
+			path = ClingConstraints;
+			sourceTree = "<group>";
+		};
+		242D002B47299022144407EB3EB23DF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F49F1EB73A9D92732F258031E021F82 /* ClingConstraints.modulemap */,
+				0FB2C550B9931BEA3EA375E22BE34F1C /* ClingConstraints.xcconfig */,
+				689C35447CD8436AF649A1DE0AC90BA9 /* ClingConstraints-dummy.m */,
+				FB7967966C1AE7BDCC97D31D13EA4913 /* ClingConstraints-prefix.pch */,
+				BC6DB72FBA2FED2919F758CACE2C84BD /* ClingConstraints-umbrella.h */,
+				C9456EBBCF445326ABC61E8B0C17F267 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ClingConstraints";
+			sourceTree = "<group>";
+		};
+		5B0045A6971944AF3C04539652EA10BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AA483607111D7DFA52B6F15898324 /* Info.plist */,
+				D24B964D27AB02F9B4CA32B8E9FB303C /* PrettyButtons.modulemap */,
+				2FD61C3963841AE4CADA4B16EEF74365 /* PrettyButtons.xcconfig */,
+				7E18D63FDD34ECCC48A816D3627AE7C9 /* PrettyButtons-dummy.m */,
+				B3992DBE842DEC9EE03077BD8C1891CE /* PrettyButtons-prefix.pch */,
+				6E7F41C61601E4131F760F6F398D9DBB /* PrettyButtons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrettyButtons";
+			sourceTree = "<group>";
+		};
+		669339EE1C1E666F9B2A568790F6885B /* Pods-PrettyButtons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7636136923261829CF8DB6D2C2EE4E3D /* Info.plist */,
+				8C4D0145AE775C7AA507CB7D7DE92AD8 /* Pods-PrettyButtons_Tests.modulemap */,
+				4730B98B112296FF1D4909853729F86A /* Pods-PrettyButtons_Tests-acknowledgements.markdown */,
+				075FCE224FC3A0C74E4ECA5011B1D219 /* Pods-PrettyButtons_Tests-acknowledgements.plist */,
+				A37AD40E967F33F3606B08C5D62B4B15 /* Pods-PrettyButtons_Tests-dummy.m */,
+				45210F25CC6650670A78C1F68C7ACC95 /* Pods-PrettyButtons_Tests-frameworks.sh */,
+				E28250435562B5C8FFB623133B702BB5 /* Pods-PrettyButtons_Tests-resources.sh */,
+				6762C977D46A2AE72780DF8697F688CE /* Pods-PrettyButtons_Tests-umbrella.h */,
+				A1C81BEA5F6AD95E1338E4D47AE3AB7A /* Pods-PrettyButtons_Tests.debug.xcconfig */,
+				071AD3EA4945B9E831602AFF72FE572D /* Pods-PrettyButtons_Tests.release.xcconfig */,
+			);
+			name = "Pods-PrettyButtons_Tests";
+			path = "Target Support Files/Pods-PrettyButtons_Tests";
+			sourceTree = "<group>";
+		};
+		6F5A97E9235A26E35DF24464E5B32020 /* Pods-PrettyButtons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D99770DA8C62CFB900B43CCDE685A066 /* Info.plist */,
+				FD014610D744EC63FBE2D671E7A89A03 /* Pods-PrettyButtons_Example.modulemap */,
+				AFE9876852B25C37AF2EF9991F111FEC /* Pods-PrettyButtons_Example-acknowledgements.markdown */,
+				B5756F8F6CC04A351283694314C1C925 /* Pods-PrettyButtons_Example-acknowledgements.plist */,
+				9997FF981DECECDB5C526139C9CD0B93 /* Pods-PrettyButtons_Example-dummy.m */,
+				C0FF857747F249878DE5F98E5368F7F1 /* Pods-PrettyButtons_Example-frameworks.sh */,
+				37B53AD3F21216A82D3D133D0FE58816 /* Pods-PrettyButtons_Example-resources.sh */,
+				931D3D399AB74BA24F473FD0994E2200 /* Pods-PrettyButtons_Example-umbrella.h */,
+				4BF42AEC7D9F33E9CA3A13F8A0CADCB8 /* Pods-PrettyButtons_Example.debug.xcconfig */,
+				F698A777AB79B3ADDC13CBCA1F099ACD /* Pods-PrettyButtons_Example.release.xcconfig */,
+			);
+			name = "Pods-PrettyButtons_Example";
+			path = "Target Support Files/Pods-PrettyButtons_Example";
+			sourceTree = "<group>";
+		};
+		763CF328E1EF8A4D68F4502FABAA1080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC55A09A9247ACFC94FA42286212EEA /* ClingConstraints.framework */,
+				CAE52141B05DFD108D2281594AC52A35 /* Pods_PrettyButtons_Example.framework */,
+				52292849AAED60135273E88A30A4B72A /* Pods_PrettyButtons_Tests.framework */,
+				A827175BD16B62D61984F1397CDB8539 /* PrettyButtons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9BBE3C4BC2ABEB092B58321C9BA539C3 /* Development Pods */,
+				83C0E7144E6A1F5436233015638046A2 /* Frameworks */,
+				B845A64F9E71874A4E9DB593C16E84EE /* Pods */,
+				763CF328E1EF8A4D68F4502FABAA1080 /* Products */,
+				B86BB735A622871262E84715C1B0E97C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C0E7144E6A1F5436233015638046A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBCB00284B8464332CEFA4867E113CD /* ClingConstraints.framework */,
+				C5BC89D19B41F3D080230C4A4016A3E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BBE3C4BC2ABEB092B58321C9BA539C3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9780C9D00F6125CF762421E42ADA2D3 /* PrettyButtons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B845A64F9E71874A4E9DB593C16E84EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F067477B6E66E040A4B5EA87C3F9897 /* ClingConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B86BB735A622871262E84715C1B0E97C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A97E9235A26E35DF24464E5B32020 /* Pods-PrettyButtons_Example */,
+				669339EE1C1E666F9B2A568790F6885B /* Pods-PrettyButtons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5BC89D19B41F3D080230C4A4016A3E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA60722C7D48A4AB186B42AF49CEEC7A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9780C9D00F6125CF762421E42ADA2D3 /* PrettyButtons */ = {
+			isa = PBXGroup;
+			children = (
+				38F50B95BF0DCE010E7855CB97EF81F1 /* PrettyButton.swift */,
+				5B0045A6971944AF3C04539652EA10BC /* Support Files */,
+			);
+			name = PrettyButtons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		279E8F8466807A959BF1551A7CBDAABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CDD882CC68F098E2AE8F659C6F282E /* Pods-PrettyButtons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A98B2920F89E00928C075EE1CB8E5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD849C64A754AC705636BA8E47DA5704 /* Pods-PrettyButtons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E36337AC9ABF1FC8F23E7DE1628187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933FD191CD100CFBD572FC56E8AA0E3B /* PrettyButtons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4DBD928E14B40E78B64ED627A3E43B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B9B934DDD2807FC565854387908A0F /* ClingConstraints-umbrella.h in Headers */,
+				8D59F8BA6182AA7B044BC0A689D17850 /* ClingConstraints.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44AA58AB138B53B778F60E5223BED38F /* Pods-PrettyButtons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F903C3E0663767B8131FF124D084CC91 /* Build configuration list for PBXNativeTarget "Pods-PrettyButtons_Example" */;
+			buildPhases = (
+				20FB76BF55E1F94CFAC85AE95F6EA9AB /* Sources */,
+				6EB223D1B1025E7F9F06FA1CFE516437 /* Frameworks */,
+				30A98B2920F89E00928C075EE1CB8E5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FBB353227CA88FB7E09FCEABD2D745 /* PBXTargetDependency */,
+				13AC39F6A136F75DBCB19CA6E19FD974 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrettyButtons_Example";
+			productName = "Pods-PrettyButtons_Example";
+			productReference = CAE52141B05DFD108D2281594AC52A35 /* Pods_PrettyButtons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5029BAB66A943A39BE8E3F75300CE29D /* PrettyButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A86FBEC6546C3000920B2D946A729AA /* Build configuration list for PBXNativeTarget "PrettyButtons" */;
+			buildPhases = (
+				5D239EB05B1E5E998A445A5B337EF7EF /* Sources */,
+				9AF90FBEC685C1A3A6D8FE9DC0E73102 /* Frameworks */,
+				B8E36337AC9ABF1FC8F23E7DE1628187 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8A7348CAA0E17B3821A589BEFE6776 /* PBXTargetDependency */,
+			);
+			name = PrettyButtons;
+			productName = PrettyButtons;
+			productReference = A827175BD16B62D61984F1397CDB8539 /* PrettyButtons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C46E66926860F0475EC4EE7F9CD2008F /* ClingConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5EB1DB1211E7CA70A3E4BCE9E70BEED /* Build configuration list for PBXNativeTarget "ClingConstraints" */;
+			buildPhases = (
+				DA0AAF22B43ADDAAF84909C4F1502482 /* Sources */,
+				20BDE6F602D872055B9C1ECBB7D65E52 /* Frameworks */,
+				EF4DBD928E14B40E78B64ED627A3E43B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClingConstraints;
+			productName = ClingConstraints;
+			productReference = 5EC55A09A9247ACFC94FA42286212EEA /* ClingConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB11E7C9AF852BA5271EE9747645AC49 /* Pods-PrettyButtons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BBF6EF1A3CCDA2038FC636656780B0 /* Build configuration list for PBXNativeTarget "Pods-PrettyButtons_Tests" */;
+			buildPhases = (
+				5CFB13C103FDFCB9CC8D2E9B549914FA /* Sources */,
+				9DF33F76BC8FAFD005F21D28CD311F9F /* Frameworks */,
+				279E8F8466807A959BF1551A7CBDAABD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PrettyButtons_Tests";
+			productName = "Pods-PrettyButtons_Tests";
+			productReference = 52292849AAED60135273E88A30A4B72A /* Pods_PrettyButtons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 763CF328E1EF8A4D68F4502FABAA1080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46E66926860F0475EC4EE7F9CD2008F /* ClingConstraints */,
+				44AA58AB138B53B778F60E5223BED38F /* Pods-PrettyButtons_Example */,
+				EB11E7C9AF852BA5271EE9747645AC49 /* Pods-PrettyButtons_Tests */,
+				5029BAB66A943A39BE8E3F75300CE29D /* PrettyButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FB76BF55E1F94CFAC85AE95F6EA9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B16FB422A0BEC78C559F03F21139B2 /* Pods-PrettyButtons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFB13C103FDFCB9CC8D2E9B549914FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01523388ADA6550315700C11F78A1243 /* Pods-PrettyButtons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D239EB05B1E5E998A445A5B337EF7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908ECF81AA12DEF2BD0553A715D6AFDF /* PrettyButton.swift in Sources */,
+				F018CD4161D9D79DF9855E611C720F18 /* PrettyButtons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0AAF22B43ADDAAF84909C4F1502482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EA04BF93C80C0C2735FE8A27359173 /* ClingConstraints-dummy.m in Sources */,
+				5D3620E86DF06578BEC23DA8A06ABF5F /* FillMethod.swift in Sources */,
+				22C83F8BB7533A85F5419E7E90433DA0 /* NSLayoutConstraintCollectionExtension.swift in Sources */,
+				E0A0B66A978428BB68C709B8BCF08F41 /* NSLayoutConstraintExtension.swift in Sources */,
+				220B0E7F750C80AC7E71EF31C17EC45C /* UIViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13AC39F6A136F75DBCB19CA6E19FD974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PrettyButtons;
+			target = 5029BAB66A943A39BE8E3F75300CE29D /* PrettyButtons */;
+			targetProxy = 37764A7309616BF727A25A1457EB567E /* PBXContainerItemProxy */;
+		};
+		C6FBB353227CA88FB7E09FCEABD2D745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClingConstraints;
+			target = C46E66926860F0475EC4EE7F9CD2008F /* ClingConstraints */;
+			targetProxy = 68457E02E839EA814E2744FB97975D80 /* PBXContainerItemProxy */;
+		};
+		FF8A7348CAA0E17B3821A589BEFE6776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClingConstraints;
+			target = C46E66926860F0475EC4EE7F9CD2008F /* ClingConstraints */;
+			targetProxy = 1CD84A7BA86EAFB72E76F81C09F5229B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F0E5AF942F3BD67BD3B52A810A4EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB2C550B9931BEA3EA375E22BE34F1C /* ClingConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClingConstraints/ClingConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClingConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClingConstraints/ClingConstraints.modulemap";
+				PRODUCT_NAME = ClingConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		027E1B10B16B88770F46CEC5045C7B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB2C550B9931BEA3EA375E22BE34F1C /* ClingConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClingConstraints/ClingConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClingConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClingConstraints/ClingConstraints.modulemap";
+				PRODUCT_NAME = ClingConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		096E494DD7C891BEE0496D0AE525DEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD61C3963841AE4CADA4B16EEF74365 /* PrettyButtons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrettyButtons/PrettyButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrettyButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrettyButtons/PrettyButtons.modulemap";
+				PRODUCT_NAME = PrettyButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5140BF144FBF002DD76B35824ABBAD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698A777AB79B3ADDC13CBCA1F099ACD /* Pods-PrettyButtons_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrettyButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrettyButtons_Example/Pods-PrettyButtons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrettyButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		918F6C64A703AE821742498D4493D86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD61C3963841AE4CADA4B16EEF74365 /* PrettyButtons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrettyButtons/PrettyButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrettyButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrettyButtons/PrettyButtons.modulemap";
+				PRODUCT_NAME = PrettyButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A881C9F239D98E193A0C275416AF59A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF42AEC7D9F33E9CA3A13F8A0CADCB8 /* Pods-PrettyButtons_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrettyButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrettyButtons_Example/Pods-PrettyButtons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrettyButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFE55954A2334087EA55F4077F48970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C81BEA5F6AD95E1338E4D47AE3AB7A /* Pods-PrettyButtons_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrettyButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrettyButtons_Tests/Pods-PrettyButtons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrettyButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDE5149255EB43988AF48BAC76E72861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071AD3EA4945B9E831602AFF72FE572D /* Pods-PrettyButtons_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrettyButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrettyButtons_Tests/Pods-PrettyButtons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PrettyButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A86FBEC6546C3000920B2D946A729AA /* Build configuration list for PBXNativeTarget "PrettyButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096E494DD7C891BEE0496D0AE525DEF6 /* Debug */,
+				918F6C64A703AE821742498D4493D86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BBF6EF1A3CCDA2038FC636656780B0 /* Build configuration list for PBXNativeTarget "Pods-PrettyButtons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE55954A2334087EA55F4077F48970C /* Debug */,
+				CDE5149255EB43988AF48BAC76E72861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5EB1DB1211E7CA70A3E4BCE9E70BEED /* Build configuration list for PBXNativeTarget "ClingConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027E1B10B16B88770F46CEC5045C7B7F /* Debug */,
+				01F0E5AF942F3BD67BD3B52A810A4EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F903C3E0663767B8131FF124D084CC91 /* Build configuration list for PBXNativeTarget "Pods-PrettyButtons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A881C9F239D98E193A0C275416AF59A7 /* Debug */,
+				5140BF144FBF002DD76B35824ABBAD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
