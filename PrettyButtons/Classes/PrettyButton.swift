@@ -127,7 +127,7 @@ import ClingConstraints
     @objc private func startPress(sender: PrettyButton) {
         switch style {
         case .none:
-            break;
+            createNoAnimationView()
         case .slide:
             createSlideView()
         case .bloom:
@@ -169,6 +169,21 @@ import ClingConstraints
             overlayView.tag = PrettyButton.overlayViewTag
             
             return overlayView
+        }
+    }
+
+    /// Adds an overlay view with no animations to the button.
+    private func createNoAnimationView() {
+        // If slide view does not currently exist, create it
+        if viewWithTag(PrettyButton.overlayViewTag) == nil {
+            // Create view that slides to bottom right on press
+            let overlayView: UIView = createOverlayView()
+            addSubview(overlayView)
+
+            // Copy everything. No animation.
+            overlayView.copy(.left, .top, .right, .bottom, of: self)
+            // Set the view to these constraints
+            layoutIfNeeded()
         }
     }
     

@@ -1,9 +1,9 @@
 {
   "name": "PrettyButtons",
   "version": "0.1.0",
-  "summary": "A short description of PrettyButtons.",
+  "summary": "Simple animated buttons for iOS.",
   "description": "An iOS library for UIButtons with user-feedback on-press.",
-  "homepage": "https://github.com/chrisfromtemporaryid@gmail.com/PrettyButtons",
+  "homepage": "https://github.com/Chris-Perkins/PrettyButtons-iOS.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "chrisfromtemporaryid@gmail.com": "chrisfromtemporaryid@gmail.com"
   },
   "source": {
-    "git": "https://github.com/chrisfromtemporaryid@gmail.com/PrettyButtons.git",
+    "git": "https://github.com/Chris-Perkins/PrettyButtons-iOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
